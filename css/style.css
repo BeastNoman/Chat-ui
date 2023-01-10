@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.chatbox{
+    background-color: rgb(251, 115, 115);
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+}
+.typebox{
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    left: 150px;
+    background-color: rgb(0, 162, 249);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.typebox input{
+    width: 700px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 162, 249);
+    border: none;
+}
+.typebox input::{
+    outline: none;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+.service{
+    display: flex;
+    margin: 20px 10px;
+    gap: 15px;
+    align-items: center;
+    background-color: gray;
+    width: 220px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.service img{
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+    
+}
+.customer p{
+    font-size: 10px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+.user1{
+    
+    gap: 15px;
+    background-color: rgb(77, 184, 241);  
+    width: 420px;
+    border-radius: 18px;
+    padding: 10px;  
+    position: absolute;
+    right: 20px;
+    top: 175px;
+    align-items: center;
+}
+.user1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+}
+span{
+     position: relative;
+     bottom: 14px;
+}
+.user p{
+    font-size: 10px;
+    position: absolute;
+    top: 252px;
+    right: 49px;
+}
+
+.service1{
+    display: flex;
+    margin: 20px 10px;
+    gap: 15px;
+    align-items: center;
+    background-color: gray;
+    width: 220px;
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    bottom: 448px;
+}
+.service1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+}
+#text1{
+    font-size: 10px;
+    position: absolute;
+    bottom:453px;
+    left: 30px;
+}
+
+.avatar1{
+    gap: 15px;
+    background-color: rgb(77, 184, 241);  
+    width: 170px;
+    border-radius: 18px;
+    padding: 12px;  
+    position: absolute;
+    right: 20px;
+    bottom: 340px;
+    align-items: center;
+}
+.avatar1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+}
+.avatar p{
+    font-size: 10px;
+    position: absolute;
+    bottom: 321px;
+    right: 45px;
+}
+
+
